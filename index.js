@@ -37,12 +37,6 @@ fetch('https://api.github.com/users/virragrn')
         document.getElementById('idAkun').style.marginRight = "auto";
         document.getElementById('idAkun').style.marginTop = "20px";
 
-        // document.getElementById('submit').style.display = "block";
-        // document.getElementById('submit').style.marginLeft = "auto";
-        // document.getElementById('submit').style.marginRight = "auto";
-        // document.getElementById('submit').style.marginTop = "20px";
-
-
         
         document.getElementById('idAkun').addEventListener('click', displayAlert);
         function displayAlert() {
